@@ -1,5 +1,6 @@
 'use client'
 import AnimatedText from '@/components/AnimatedText'
+import Education from '@/components/Education'
 import Experience from '@/components/Experience'
 import Layout from '@/components/Layout'
 import Skills from '@/components/Skills'
@@ -84,6 +85,7 @@ function about() {
             </div>
             <Skills />
             <Experience />
+            <Education />
           </Layout>
         </main>
     </>
