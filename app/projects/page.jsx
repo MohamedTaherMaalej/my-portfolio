@@ -11,10 +11,10 @@ import Image from 'next/image'
 const FeaturedProjects = ({type, title, summary, img, link, github}) => {
   return (
     <article className='flex flex-col items-center justify-between rounded-3xl border border-solid border-black bg-white shadow-2xl p-12'>
-      <Link href={link} target='_blank' className='w-1/2 cursor-pointer overflow-hidden rounded-lg'>
+      <Link href={link} target='_blank' className='w-full cursor-pointer overflow-hidden rounded-lg'>
         <Image src={img} alt={title} width={800} height={400} className='w-full h-auto' />
       </Link>
-      <div className='w-1/2 flex flex-col items-start justify-between pl-6'>
+      <div className='w-full flex flex-col items-start justify-between pl-6'>
         <span className='text-red-600 font-medium text-xl'>{type}</span>
         <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
           <h2 className='my-2 w-full text-left text-4xl text-bold'>{title}</h2>
@@ -32,6 +32,31 @@ const FeaturedProjects = ({type, title, summary, img, link, github}) => {
     </article>
   )
 }
+
+const Project = ({title, type, img, link, github}) => {
+  return (
+    <article className='w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-black bg-white p-6 relative'>
+      <Link href={link} target='_blank' className='w-1/2 cursor-pointer overflow-hidden rounded-lg'>
+        <Image src={img} alt={title} width={800} height={400} className='w-full h-auto' />
+      </Link>
+      <div className='w-1/2 flex flex-col items-start justify-between mt-4'>
+        <span className='text-red-600 font-medium text-xl'>{type}</span>
+        <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
+          <h2 className='my-2 w-full text-left text-3xl text-bold'>{title}</h2>
+        </Link>
+        <div className='mt-2 w-full flex items-center justify-between'>
+          <Link href={link} target='_blank' className='text-lg font-semibold underline'>
+            Vist
+          </Link>
+          <Link href={github} target='_blank' className='w-8'>
+            <GithubIcon />
+          </Link>
+        </div>
+      </div>
+    </article>
+  )
+}
+
 
 const projects = () => {
   return (
@@ -55,10 +80,22 @@ const projects = () => {
             />
           </div>
           <div className='col-span-6'>
-            Project-1
+            <Project
+              title='Project-0'
+              summary='Project-0 Summary'
+              img='/images/project-0.jpg'
+              link='/projects/project-0'
+              github=''
+            />
           </div>
           <div className='col-span-6'>
-            Project-2
+            <Project
+              title='Project-1'
+              summary='Project-1 Summary'
+              img='/images/project-1.jpg'
+              link='/projects/project-1'
+              github=''
+            />
           </div>
           <div className='col-span-12'>
             <FeaturedProjects
@@ -71,10 +108,22 @@ const projects = () => {
             />
           </div>
           <div className='col-span-6'>
-            Project-3
+            <Project
+              title='Project-2'
+              summary='Project-2 Summary'
+              img='/images/project-2.jpg'
+              link='/projects/project-2'
+              github=''
+            />
           </div>
           <div className='col-span-6'>
-            Project-4
+            <Project
+              title='Project-3'
+              summary='Project-3 Summary'
+              img='/images/project-3.jpg'
+              link='/projects/project-3'
+              github=''
+            />
           </div>
         </div>
       </Layout>
