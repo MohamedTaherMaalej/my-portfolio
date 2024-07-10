@@ -7,12 +7,18 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { GithubIcon } from '@/components/Icons'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
+
+const FramerImage = motion(Image)
 
 const FeaturedProjects = ({type, title, summary, img, link, github}) => {
   return (
     <article className='flex flex-col items-center justify-between rounded-3xl border border-solid border-black bg-white shadow-2xl p-12'>
       <Link href={link} target='_blank' className='w-full cursor-pointer overflow-hidden rounded-lg'>
-        <Image src={img} alt={title} width={800} height={400} className='w-full h-auto' />
+        <FramerImage src={img} alt={title} width={800} height={400} className='w-full h-auto'
+        whileHover={{ scale: 1.05 }}
+        transition={{ duration: 0.2 }}
+        />
       </Link>
       <div className='w-full flex flex-col items-start justify-between pl-6'>
         <span className='text-red-600 font-medium text-xl'>{type}</span>
