@@ -1,7 +1,12 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-// import profilePic from '@/public/images/profile/profile.jpg'
+import profilePic from '@/public/images/profile/developer-pic-1.png'
+import AnimatedText from '@/components/AnimatedText'
+import Link from 'next/link'
+import { LinkArrow } from '@/components/Icons'
+import HireMe from '@/components/HireMe'
+import lightBulb from '@/public/images/svgs/miscellaneous_icons_1.svg'
 
 export default function Home() {
   return (
@@ -11,18 +16,29 @@ export default function Home() {
         <meta name="description" content="Mohamed Taher Maalej Portfolio" />
 
       </Head>
-      <main className='flex items-center w-full min-h-screen'>
+      <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
         <Layout className='pt-0'>
           <div className='flex items-center justify-between w-full'>
             <div className='w-1/2'>
-              <Image src=''  alt='Mohamed Taher Maalej' className='w-full h-auto' />
+              <Image src={profilePic}  alt='Mohamed Taher Maalej' className='w-full h-auto' />
             </div>
-            <div>
-              <h1 className='text-4xl font-bold'>Mohamed Taher Maalej</h1>
-              <p className='text-lg font-medium'>ICT Engineering Student</p>
+            <div className='w-1/2 flex flex-col items-center self-center'> 
+              <AnimatedText text='Securing the Future with Strategy and Expertise.' className='!text-6xl !text-left' />
+              <p className='my-4 text-base font-medium'>
+                As a cybersecurity professional with a passion for penetration testing and SOC analysis, I specialize in identifying and mitigating security risks. I am dedicated to building secure, innovative systems and applications while continuously enhancing my skills in offensive and defensive security.
+                Explore my latest projects and insights, showcasing my expertise in penetration testing, security operations, and secure application development.
+              </p>
+              <div className='flex items-center self-start mt-2'>
+                <Link href='/Mohamed_Taher_MAALEJ_CV_ENG_GitHub_2025.pdf' target={'_blank'} className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light' download={true}>Resume <LinkArrow className={"w-6 ml-1"}/></Link>
+                <Link href='mailto:mohamed-taher.maalej@proton.me' target={'_blank'} className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light'>Contact</Link> 
+              </div>
             </div>
           </div>
         </Layout>
+        <HireMe />
+        <div className='absolute right-8 bottom-8 inline-block w-24'>
+          <Image src={lightBulb} alt='Mohamed Taher Maalej' className='w-full h-auto' />
+        </div>
       </main>
     </>
   )
