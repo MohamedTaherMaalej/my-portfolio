@@ -9,7 +9,7 @@ function Footer() {
             <span> {new Date().getFullYear()} &copy; All Rights Reserved. </span>
             <div className='flex items-center lg:py-2'>
                 Built with <span className='text-primary dark:text-primaryDark text-2xl px-1'> &#9825; </span>
-                by&nbsp; <Link href="https://www.mohamedtahermaalej.com" classNacom='underline underline-offset-2' target={'_blank'}>Mohamed Taher MAALEJ</Link>
+                by&nbsp; <Link href="https://www.mohamedtahermaalej.com" className='underline underline-offset-2' target={'_blank'}>Mohamed Taher MAALEJ</Link>
             </div>
             <Link href="https://www.mohamedtahermaalej.com" className='underline underline-offset-2' target={'_blank'}>Say Hello</Link>
         </Layout>
