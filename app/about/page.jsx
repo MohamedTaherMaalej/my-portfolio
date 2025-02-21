@@ -52,13 +52,13 @@ function about() {
               <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                 <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light'>Biography</h2>
                 <p className='font-medium'>
-                Hi, I'm Mohamed Taher MAALEJ, a Cybersecurity Engineer with a passion for securing digital ecosystems and protecting sensitive data. With a strong background in penetration testing, network security, and system defense, I specialize in identifying vulnerabilities and fortifying systems against cyber threats.
+                Hi, I&rsquo;m Mohamed Taher MAALEJ, a Cybersecurity Engineer with a passion for securing digital ecosystems and protecting sensitive data. With a strong background in penetration testing, network security, and system defense, I specialize in identifying vulnerabilities and fortifying systems against cyber threats.
                 </p>
                 <p className='my-4 font-medium'>
-                For me, cybersecurity isn’t just about defense—it’s about proactively understanding threats, enhancing security infrastructures, and ensuring that digital experiences remain safe, seamless, and resilient. Whether it's conducting security audits, deploying vulnerability management solutions, or strengthening enterprise networks, I bring a meticulous, problem-solving mindset to every challenge.
+                For me, cybersecurity isn&rsquo;t just about defense&mdash;it&rsquo;s about proactively understanding threats, enhancing security infrastructures, and ensuring that digital experiences remain safe, seamless, and resilient. Whether it&rsquo;s conducting security audits, deploying vulnerability management solutions, or strengthening enterprise networks, I bring a meticulous, problem-solving mindset to every challenge.
                 </p>
                 <p className='font-medium'>
-                With expertise in ethical hacking, SIEM solutions, blockchain security, and secure software development, I’m always exploring new technologies and innovative strategies to stay ahead of cyber threats. I look forward to the opportunity to bring my skills and passion to your business.
+                With expertise in ethical hacking, SIEM solutions, blockchain security, and secure software development, I&rsquo;m always exploring new technologies and innovative strategies to stay ahead of cyber threats. I look forward to the opportunity to bring my skills and passion to your business.
                 </p>
               </div>
               <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>
