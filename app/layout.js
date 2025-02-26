@@ -10,7 +10,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "My Portfolio",
+  title: "Mohamed Taher Maalej Portfolio",
   description: "A modern portfolio built with Next.js",
   icons: {
     icon: "/favicon.ico",
