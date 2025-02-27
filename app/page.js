@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>My Portfolio</title>
-        <meta name="description" content="Mohamed Taher Maalej Portfolio" />
+        <title>Mohamed Taher MAALEJ Portfolio</title>
+        <meta name="description" content="Mohamed Taher MAALEJ Portfolio" />
 
       </Head>
       <TransitionEffect />
@@ -22,7 +22,7 @@ export default function Home() {
         <Layout className='pt-0 md:pt-16 sm:pt-8'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
             <div className='w-1/2 md:w-full'>
-              <Image src={profilePic}  alt='Mohamed Taher Maalej' className='w-full h-auto lg:hidden md:inline-block md:w-full' priority sizes='max-width:768px) 100vw, max-width:1200) 50vw, 50vw' />
+              <Image src={profilePic}  alt='Mohamed Taher MAALEJ' className='w-full h-auto lg:hidden md:inline-block md:w-full' priority sizes='max-width:768px) 100vw, max-width:1200) 50vw, 50vw' />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'> 
               <AnimatedText text='Securing the Future with Strategy and Expertise.' className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
@@ -39,7 +39,7 @@ export default function Home() {
         </Layout>
         <HireMe />
         <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
-          <Image src={lightBulb} alt='Mohamed Taher Maalej' className='w-full h-auto' />
+          <Image src={lightBulb} alt='Mohamed Taher MAALEJ' className='w-full h-auto' />
         </div>
       </main>
     </>
