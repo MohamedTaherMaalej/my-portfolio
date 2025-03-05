@@ -15,7 +15,6 @@ export default function Home() {
       <Head>
         <title>Mohamed Taher MAALEJ Portfolio</title>
         <meta name="description" content="Mohamed Taher MAALEJ Portfolio" />
-
       </Head>
       <TransitionEffect />
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
