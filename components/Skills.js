@@ -38,7 +38,6 @@ function Skills() {
       <Skill name='Netcat' x='-20vw' y='0'/>
       <Skill name='CI/CD' x='30vw' y='0'/>
       <Skill name='Git' x='-30vw' y='0'/>
-
     </div>
     </>
   )
