@@ -20,7 +20,6 @@ const Details = ({type, duration, place, info}) => {
         <p className='font-medium w-full md:text-sm'>
           {info}
         </p>
-
       </motion.div>
     </li>
 
@@ -43,7 +42,6 @@ function Education() {
       </h2>
       <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
         <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]'/>
-
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details type='Engineering Degree | CyberSecurity' duration='2023 - 2025' place='Intitut Mines-Télécom Atlantique | IMT Atlantique' info='Focus on Penetration Testing, Network Security and OS Security.'/>
             <Details type='Engineering Degree | Information and Communications Technology' duration='2021 - 2024' place="Higher Shcool of Communication of Tunis | SUP'COM" info='Focus on Networking Basics and Cybersecurity Fundamentals.'/>
