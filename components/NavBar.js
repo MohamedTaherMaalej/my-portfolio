@@ -64,7 +64,7 @@ function NavBar() {
               <motion.a href='https://github.com/MohamedTaherMaalej' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3'><GithubIcon /></motion.a>
               <motion.a href='https://www.linkedin.com/in/mohamed-taher-maalej' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3'><LinkedInIcon /></motion.a>
               <motion.a href='https://www.linkedin.com/in/mohamed-taher-maalej' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 bg-light rounded-full'><PinterestIcon /></motion.a>
-              <motion.a href='https://www.linkedin.com/in/mohamed-taher-maalej' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 ml-3'><DribbbleIcon /></motion.a>
+              <motion.a href='https://www.credly.com/users/mohamed-taher-maalej' target={'_blank'} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 ml-3'><DribbbleIcon /></motion.a>
               <button onClick={() => setMode(mode === 'light' ? 'dark' : 'light')} className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === 'light' ? 'bg-dark text-light' : 'bg-light text-dark'}`}>
                   {
                   mode === 'dark' ?
