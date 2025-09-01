@@ -51,6 +51,7 @@ function Experience() {
           {/* <Details  position='Cybersecurity Engineer' company='Freelance' companyLink='https://www.mohamedtahermaalej.com' duration='2025 - Present' address='Paris, France' work='Conducting penetration testing and vulnerability assessments to identify and mitigate security risks.
 Implementing SIEM solutions for real-time threat detection and response.
 Collaborating on security audits and compliance assessments to ensure adherence to industry standards.'/> */}
+          <Details  position='Cyber Security Engineer' company='SFR Business' companyLink='https://www.sfrbusiness.fr' duration='May - October 2025' address='Paris, France' work=''/>
           <Details  position='Blockchain Security Engineer' company='Advans Group' companyLink='https://www.advans-group.com' duration='April - August 2024' address='Sophia Antipolis, France' work='Developed and deployed smart contracts on the Ethereum blockchain, ensuring secure implementation through robust testing.
   Conducted security audits on blockchain applications, identifying vulnerabilities in Solidity-based contracts.
   Implemented cryptographic mechanisms to enhance data integrity and transaction security.
