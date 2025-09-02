@@ -43,7 +43,7 @@ function Education() {
       <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
         <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]'/>
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
-            <Details type='Engineering Degree | CyberSecurity' duration='2023 - 2025' place='Intitut Mines-Télécom Atlantique | IMT Atlantique' info='Focus on Penetration Testing, Network Security and OS Security.'/>
+            <Details type='Engineering Degree | CyberSecurity' duration='2023 - 2025' place='IMT Atlantique (Ex Télécom Bretagne)' info='Focus on Penetration Testing, Network Security and OS Security.'/>
             <Details type='Engineering Degree | Information and Communications Technology' duration='2021 - 2024' place="Higher Shcool of Communication of Tunis | SUP'COM" info='Focus on Networking Basics and Cybersecurity Fundamentals.'/>
             <Details type='Preparatory Cycle | Engineering Studies' duration='2019 - 2021' place='Preparatory Institute Of Engineering Studies Of Sfax | IPEIS' info='Ranked Top 25/800 in the national engineering entrance exam.'/>
             <Details type='High School Diploma' duration='2014 - 2018' place='Mongi Slim High School - Sfax | LMS' info='I attended high school in my home country. I studied Math, Physics, Computer Science, and other subjects.'/>
