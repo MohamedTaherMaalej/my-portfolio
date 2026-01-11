@@ -8,7 +8,7 @@ import Skills from '@/components/Skills'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from '@/public/images/profile/developer-pic-2.jpg'
+import profilePic from '@/public/images/profile/profile-pic.jpg'
 import React, { useEffect, useRef } from 'react'
 import TransitionEffect from '@/components/TransitionEffect'
 
